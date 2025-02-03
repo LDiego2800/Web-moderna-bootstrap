@@ -4,3 +4,13 @@
     justify-content: center;
     align-items: center    
 }
+
+@media (max-width: 600px) {
+    .navbar {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        gap: top 10px;
+        z-index: 1000;
+    }
+}
